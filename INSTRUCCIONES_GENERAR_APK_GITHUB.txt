@@ -1,0 +1,19 @@
+INSTRUCCIONES PARA GENERAR EL APK SIN ANDROID STUDIO
+
+1. Entra a https://github.com/ y crea una cuenta si no tienes.
+2. Crea un repositorio nuevo, por ejemplo: animanet-app-android.
+3. Sube TODO el contenido de esta carpeta al repositorio.
+4. En GitHub entra al repositorio y abre la pestaña Actions.
+5. Selecciona el flujo: Compilar APK AnimaNet.
+6. Presiona Run workflow.
+7. Espera a que termine el proceso.
+8. En la ejecución terminada, baja hasta Artifacts.
+9. Descarga el archivo AnimaNet-APK.
+10. Dentro vendrá el archivo app-debug.apk.
+11. Copia el APK a tu teléfono Android e instálalo.
+
+IMPORTANTE:
+- Este APK abre tu sistema web: https://www.animanet.org/animanet/
+- Al instalarlo quizá Android pida permitir instalación desde fuentes desconocidas.
+- Esta es una versión DEBUG, suficiente para instalarla en tus propios teléfonos.
+- Para subirla a Play Store se necesita generar una versión RELEASE firmada.
